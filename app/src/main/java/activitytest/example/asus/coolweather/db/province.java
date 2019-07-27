@@ -1,10 +1,13 @@
 package activitytest.example.asus.coolweather.db;
+
 import org.litepal.crud.DataSupport;
+
 /**
  * Created by asus on 2019/7/27.
  */
 
-public class province extends DataSupport  {
+public class Province extends DataSupport {
+
     private int id;
 
     private String provinceName;
